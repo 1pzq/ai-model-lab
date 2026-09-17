@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# AI / machine learning datasets
+data/
+datasets/
+
+# Training outputs and model weights
+checkpoints/
+outputs/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Experiment logs
+wandb/
+logs/
+
+# macOS
+.DS_Store
